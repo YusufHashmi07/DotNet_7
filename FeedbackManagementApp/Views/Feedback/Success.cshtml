@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Feedback Submitted";
+}
+
+<div class="container mt-5">
+    <div class="alert alert-success text-center">
+        <h2>Thank You!</h2>
+
+        <p>Your feedback has been submitted successfully.</p>
+
+        <a asp-controller="Feedback"
+           asp-action="Index"
+           class="btn btn-primary">
+            Submit Another Feedback
+        </a>
+    </div>
+</div>
